@@ -2,7 +2,7 @@
   hosts: all
   become: yes
   tasks:
-    - name: Copy MYSQL Repo
+    - name: Copy MySQL Repo
       ansible.builtin.copy:
         src: mysql.repo
         dest: /etc/yum/repos.d/mysql.repo
