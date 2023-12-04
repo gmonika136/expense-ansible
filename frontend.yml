@@ -17,7 +17,7 @@
         path: /usr/share/nginx/html
         state: absent
 
-    - name: Creating nginx Content Directory
+    - name: Creating Nginx Content Directory
       ansible.builtin.file:
         path: /usr/share/nginx/html
         state: directory
