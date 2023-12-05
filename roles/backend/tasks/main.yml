@@ -8,7 +8,7 @@
 
 - name: Install NodeJS
   ansible.builtin.dnf:
-    name: nodejs
+    name: Nodejs
     when: npm.rc != 0
 
 - name: Copy Backend service file
